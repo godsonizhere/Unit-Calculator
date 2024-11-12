@@ -27,15 +27,15 @@ function render() {
     
     let meter = inputValue * converter.meter
     let feet = inputValue / converter.meter
-    meterEl.innerHTML = `<p>${inputValue} meters = ${meter.toFixed(2)} feet | ${inputValue} feet = ${feet.toFixed(2)} meters</p>`
+    meterEl.innerHTML = `<h5>${inputValue} meters = ${meter.toFixed(2)} feet | ${inputValue} feet = ${feet.toFixed(2)} meters</h5>`
 
     let liter = inputValue * converter.liter
     let gallon = inputValue / 3.785
-    volumeEl.innerHTML = `<p>${inputValue} liters = ${liter.toFixed(2)} gallons | ${inputValue} gallons = ${gallon.toFixed(2)} liters</p>`
+    volumeEl.innerHTML = `<h5>${inputValue} liters = ${liter.toFixed(2)} gallons | ${inputValue} gallons = ${gallon.toFixed(2)} liters</h5>`
 
     let kilogram = inputValue * converter.kilogram
     let pound = inputValue * 2.204
-    massEl.innerHTML = `<p>${inputValue} kilos = ${kilogram.toFixed(2)} pounds | ${inputValue} pounds = ${pound.toFixed(2)} kilos</p>`
+    massEl.innerHTML = `<h5>${inputValue} kilos = ${kilogram.toFixed(2)} pounds | ${inputValue} pounds = ${pound.toFixed(2)} kilos</h5>`
 }
 
 buttonEl.addEventListener("click", function() {

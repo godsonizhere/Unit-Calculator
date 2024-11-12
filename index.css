@@ -126,3 +126,17 @@ body, html {
     text-decoration-skip-ink: none;
   }
 
+  h5 {
+    color: white;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+
+
+
