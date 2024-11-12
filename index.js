@@ -13,13 +13,13 @@ const massEl = document.getElementById("mass-el")
 
 function render() {
     if (inputEl.value.trim() === "") {
-        alertEl.innerHTML = `<p>Please enter a valid number.</p>`
+        alertEl.textContent = "Please enter a value."
         return;
     }
 
     const inputValue = parseFloat(inputEl.value)
     if (isNaN(inputValue)) {
-        alertEl.innerHTML = `<p>Please enter a valid number.</p>`
+        alertEl.innerHTML = "Please enter a valid number."
         return;
     }
 
